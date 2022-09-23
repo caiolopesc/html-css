@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagem flexível</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Voce está vendo a imagem completa? Experimente aumentar o tamnho da sua jenela para aproveitar melhor a sua experiência.</p>
+    <picture>
+        <source media="(max-width: 300px)" srcset="pic-p" type="image/png">
+        <source media="(max-width: 700px)" srcset="pic-m.png" type="image/png">
+        <img src="pic-g.png" alt="Mulher fitness">
+    </picture>
+</body>
+</html>
