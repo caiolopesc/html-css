@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
@@ -13,10 +13,22 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
         }
+
+        /*
+        SHORTHAND - BACKGROUND
+
+        color > image > position > repeat > [size] > attachment
+
+        background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
+
+        OBS: o background-size no shorthand não funciona. Tem que colocar o background-size: cover;  separado.
+
+        */
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,7 +39,11 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo </h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa suscipit rem consequuntur soluta placeat vel est at eum itaque esse incidunt voluptatibus quam, ex, cumque ea accusantium nostrum dignissimos? Tenetur? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quisquam recusandae culpa? Commodi, ad tempora, temporibus modi sed dolor voluptas, ex voluptatibus laborum inventore quo similique sunt minima quas cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam suscipit ab repellendus in dolorem labore aliquid corporis possimus cum. Aut enim tempore, quisquam ducimus corporis nisi vel ut quis! Temporibus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa suscipit rem consequuntur soluta placeat vel est at eum itaque esse incidunt voluptatibus quam, ex, cumque ea accusantium nostrum dignissimos? Tenetur? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quisquam recusandae culpa? Commodi, ad tempora, temporibus modi sed dolor voluptas, ex voluptatibus laborum inventore quo similique sunt minima quas cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam suscipit ab repellendus in dolorem labore aliquid corporis possimus cum. Aut enim tempore, quisquam ducimus corporis nisi vel ut quis! Temporibus.
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis soluta sequi ullam officiis animi pariatur voluptas sunt! Asperiores et in consequatur adipisci! Similique, labore nulla numquam nobis eum quae reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsam nam accusamus mollitia repudiandae natus ipsum, at ducimus nisi iure ea quasi nesciunt, beatae ex qui eaque voluptas voluptates itaque.</p>     
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quibusdam tenetur quasi laborum voluptatum possimus aspernatur dicta est veritatis. Blanditiis molestias iusto quibusdam at similique sint expedita ex ipsa voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe natus, tempore excepturi expedita cupiditate aspernatur quae quas? Accusantium dolore, doloribus similique voluptatem iure dolorum eligendi incidunt expedita voluptas cum! Nobis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore unde quidem hic quas excepturi optio, ut officia aperiam modi temporibus minus, animi, blanditiis id numquam aliquam laboriosam doloribus consequatur eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt et minus doloremque eligendi quisquam voluptate ratione quaerat laborum quo possimus. Illo tempore enim dolorum eaque accusantium perspiciatis mollitia a recusandae?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, obcaecati! Sint nobis culpa debitis earum! Dolor dolorum tempora sunt, ullam magnam quia, ab quasi eius facilis molestias voluptates. Perferendis, maiores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur omnis assumenda voluptatibus enim quaerat sunt iste at veniam sequi ex eveniet expedita, impedit numquam consectetur nobis corporis cupiditate dolor odit.</p>
     </main>
 </body>
 </html>
