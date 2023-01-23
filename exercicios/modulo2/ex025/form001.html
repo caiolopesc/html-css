@@ -12,8 +12,12 @@
     </style>
 </head>
 <body>
+    <!-- O USO DE GET & POST
+        GET = dados não sensíveis; até 3000 bytes
+        POST = dados sensíveis; mais de 3000 bytes e envio de arquivos
+    -->
     <h1>Meu primeiro formulário.</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" method="post" autocomplete="off">
         <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
         <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
         <p><input type="submit" value="Enviar"></p>
