@@ -1,3 +1,9 @@
 @charset "UTF-8";
 
 /* Aparelho deitado (landscape) */
+
+
+body {
+    background-image: url(../imagens/imagem.jpg);
+    background-position: left bottom;
+}
